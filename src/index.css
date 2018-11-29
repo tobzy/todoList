@@ -8,7 +8,55 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.App {
+  padding: 20px 10px;
+  /*font-family: "Raleway";*/
+  box-shadow: 0 1px 1px 0px #aaa;
+  border-top: 1px solid #ededed;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+li {
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+.listButton,
+.formButton {
+  border: none;
+  color: white;
+  background-color: steelblue;
+  /*font-family: Raleway;*/
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  max-width: 100%;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+input {
+  border: 1px solid steelblue;
+  height: 30px;
+  border-radius: 5px;
+  /*font-family: Raleway;*/
+  padding: 0 6px;
+}
+:focus {
+  outline: none;
 }
